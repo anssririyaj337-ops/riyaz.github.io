@@ -1,0 +1,111 @@
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Riyaz Ansari</title>
+<style>
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body {
+    font-family: 'Verdana', sans-serif;
+    color: #fff;
+    background: linear-gradient(-45deg, #1a2a6c, #b21f1f, #fdbb2d);
+    background-size: 400% 400%;
+    animation: gradientBG 30s ease infinite;
+    line-height: 1.6;
+  }
+  @keyframes gradientBG {
+    0% {background-position:0% 50%;}
+    50% {background-position:100% 50%;}
+    100% {background-position:0% 50%;}
+  }
+  section {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 40px 30px;
+    background: rgba(0,0,0,0.6);
+    border-radius: 20px;
+    box-shadow: 0 0 30px rgba(0,0,0,0.5);
+    transition: transform 0.4s, box-shadow 0.4s;
+  }
+  section:hover { transform: translateY(-5px); box-shadow: 0 0 40px rgba(0,0,0,0.7); }
+  h1 { font-size: 3em; text-align:center; margin-bottom:15px; color:#00ffea; text-shadow: 2px 2px #000; }
+  h2 { color:#ffd700; margin-bottom:15px; border-bottom:1px solid #fff; padding-bottom:5px; }
+  p, li { margin-bottom:12px; font-size:1.2em; }
+  ul { padding-left:20px; }
+  a { color:#00ffea; text-decoration:none; font-weight:bold; }
+  a:hover { text-decoration:underline; }
+  footer { text-align:center; padding:20px; font-size:1em; color:#ccc; }
+</style>
+</head>
+<body>
+
+<!-- Background Music -->
+<audio autoplay loop>
+  <source src="https://www.bensound.com/bensound-music/bensound-sunny.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+<!-- Header / Intro -->
+<section>
+  <h1>Riyaz Ansari</h1>
+  <p>B.Tech CSE Student at Dr. APJ Abdul Kalam Technical University</p>
+  <p><strong>Long-term Goal:</strong> Become a Software Engineer at Google</p>
+</section>
+
+<!-- About Me -->
+<section>
+  <h2>About Me</h2>
+  <p>Hi! I'm <strong>Riyaz Ansari</strong>, passionate about coding, software development, and building solutions that make a difference. My goal is to become a Software Engineer at Google.</p>
+  <p><strong>Father:</strong> Shamsher Ansari | <strong>Mother:</strong> Shahidun Nisha</p>
+  <p><strong>Address:</strong> Village Mahrazi, Post Kusmahi Bazaar, Thana Pipraich, Dist. Gorakhpur</p>
+  <p>Completed 12th from <strong>Co-operative Inter College, Pipraich</strong></p>
+</section>
+
+<!-- Skills -->
+<section>
+  <h2>Skills</h2>
+  <ul>
+    <li>C Programming</li>
+    <li>C++ Programming</li>
+    <li>HTML & CSS</li>
+    <li>JavaScript</li>
+    <li>Python</li>
+    <li>Web Development</li>
+    <li>Algorithms & Problem Solving</li>
+  </ul>
+</section>
+
+<!-- Education -->
+<section>
+  <h2>Education</h2>
+  <ul>
+    <li><strong>B.Tech CSE (Second Year)</strong> - Dr. APJ Abdul Kalam Technical University (Currently Pursuing)</li>
+    <li><strong>First Year:</strong> Passed with 7.0 SGPA ✅</li>
+    <li>12th - Co-operative Inter College, Pipraich</li>
+    <li>10th - Local School, Pipraich</li>
+  </ul>
+</section>
+
+<!-- Projects -->
+<section>
+  <h2>Projects</h2>
+  <ul>
+    <li>Personal Website (This website)</li>
+    <li>Calculator Application</li>
+    <li>Student Management System</li>
+    <li>Python Automation Scripts</li>
+  </ul>
+</section>
+
+<!-- Contact -->
+<section>
+  <h2>Contact</h2>
+  <p>Email: <a href="mailto:riyaz@example.com">riyaz@example.com</a></p>
+  <p>Phone: +91 8853969867</p>
+  <p>LinkedIn: <a href="https://linkedin.com/in/riyazansari" target="_blank">linkedin.com/in/riyazansari</a></p>
+  <p>GitHub: <a href="https://github.com/riyazansari" target="_blank">github.com/riyazansari</a></p>
+</section>
+
+<footer>&copy; 2025 Riyaz Ansari. All rights reserved.</footer>
+
+</body>
+</html>
