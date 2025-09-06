@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Riyaz Ansari - Portfolio</title>
+  <style>
+    body{
+      margin:0;
+      font-family:"Poppins",Arial,sans-serif;
+      color:#fff;
+      background: linear-gradient(-45deg, #ff6f61, #6a11cb, #2575fc, #ff9a9e);
+      background-size:400% 400%;
+      animation: gradientBG 12s ease infinite;
+    }
+    @keyframes gradientBG {
+      0%{background-position:0% 50%}
+      50%{background-position:100% 50%}
+      100%{background-position:0% 50%}
+    }
+
+    header{
+      text-align:center;
+      padding:70px 20px 40px;
+      position:relative;
+      overflow:hidden;
+    }
+    header h1{
+      font-size:56px;
+      font-weight:800;
+      margin:0;
+      background: linear-gradient(90deg,#ffeb3b,#00e5ff,#ff4081);
+      -webkit-background-clip:text;
+      -webkit-text-fill-color:transparent;
+      text-shadow:0 0 18px rgba(255,255,255,0.6);
+    }
+
+    /* flowers */
+    .flower{
+      position:absolute;
+      width:160px;height:160px;
+      border-radius:50%;
+      background:radial-gradient(circle,rgba(255,255,255,0.25),transparent 70%);
+      animation: spin 40s linear infinite;
+      z-index:-1;
+    }
+    .flower:nth-child(2){top:10%;left:10%;animation-duration:50s;}
+    .flower:nth-child(3){top:30%;left:70%;animation-duration:35s;}
+    .flower:nth-child(4){top:70%;left:20%;animation-duration:60s;}
+    .flower:nth-child(5){top:80%;left:80%;animation-duration:45s;}
+    .flower:nth-child(6){top:50%;left:40%;animation-duration:55s;}
+    @keyframes spin{100%{transform:rotate(360deg)}}
+
+    section{
+      max-width:950px;
+      margin:30px auto;
+      padding:26px;
+      background:rgba(0,0,0,0.55);
+      border-radius:18px;
+      box-shadow:0 8px 26px rgba(0,0,0,0.55);
+    }
+    section h2{
+      font-size:26px;
+      margin-bottom:12px;
+      font-weight:600;
+      background:linear-gradient(90deg,#ffeb3b,#00e5ff);
+      -webkit-background-clip:text;
+      -webkit-text-fill-color:transparent;
+      border-bottom:2px solid rgba(255,255,255,0.3);
+      display:inline-block;
+      padding-bottom:4px;
+    }
+    p{line-height:1.8;font-size:16px}
+
+    .skills span{
+      display:inline-block;
+      background:rgba(255,255,255,0.2);
+      padding:8px 14px;
+      border-radius:10px;
+      margin:6px;
+      font-weight:500;
+    }
+    .contact{text-align:center;margin-top:16px}
+    .contact a{
+      display:inline-block;
+      background:linear-gradient(90deg,#00e5ff,#ff4081);
+      color:#fff;
+      padding:12px 20px;
+      margin:8px;
+      border-radius:10px;
+      text-decoration:none;
+      font-weight:600;
+      box-shadow:0 6px 18px rgba(0,0,0,0.4);
+      transition:transform 0.25s;
+    }
+    .contact a:hover{transform:scale(1.07)}
+
+    footer{
+      text-align:center;
+      color:#eee;
+      padding:25px;
+      font-size:14px;
+    }
+    footer strong{color:#ffeb3b}
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Riyaz Ansari</h1>
+    <!-- flowers -->
+    <div class="flower"></div>
+    <div class="flower"></div>
+    <div class="flower"></div>
+    <div class="flower"></div>
+    <div class="flower"></div>
+    <div class="flower"></div>
+  </header>
+
+  <section>
+    <h2>About Me</h2>
+    <p><b>Name:</b> Riyaz Ansari</p>
+    <p><b>University:</b> Dr. APJ Abdul Kalam Technical University</p>
+    <p><b>Village:</b> Mahrazi</p>
+    <p><b>Post:</b> Kusmahi Bazaar</p>
+    <p><b>District:</b> Gorakhpur</p>
+    <p><b>Father’s Name:</b> Shamser Ansari</p>
+    <p><b>Mother’s Name:</b> Shahidun Nisha</p>
+  </section>
+
+  <section>
+    <h2>Education</h2>
+    <p>I am currently pursuing my <b>Bachelor of Technology (B.Tech) in Computer Science & Engineering</b>.</p>
+    <p>I have successfully completed my <b>First Year</b> with a score of <b>7 YGPA</b>.</p>
+    <p>Currently I am in my <b>Second Year</b>.</p>
+  </section>
+
+  <section>
+    <h2>Career Ambition</h2>
+    <p>I aspire to become a <b>Software Engineer</b>.</p>
+    <p>I dream to work with global companies like <b>Google</b> and <b>Microsoft</b>.</p>
+    <p>My vision is to create innovative solutions that make a real difference in technology.</p>
+  </section>
+
+  <section>
+    <h2>Skills & Strengths</h2>
+    <div class="skills">
+      <span>HTML</span>
+      <span>CSS</span>
+      <span>C Programming</span>
+      <span>Problem Solving</span>
+      <span>Web Development</span>
+      <span>Creative Thinking</span>
+    </div>
+  </section>
+
+  <section>
+    <h2>Get in Touch</h2>
+    <p>Have a project idea, need a website, or just want to connect?</p>
+    <p>I am always open to opportunities, queries, and collaborations.</p>
+    <p>Don’t hesitate to reach out — let’s create something extraordinary together!</p>
+    <div class="contact">
+      <a href="tel:+918853969867">📞 Call Me</a>
+      <a href="mailto:riyaz@example.com">✉️ Email Me</a>
+      <a href="https://wa.me/918853969867" target="_blank">💬 WhatsApp Me</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>© <span id="year"></span> <strong>Riyaz Ansari</strong> | Designed with Passion 🌟<br>
+    “Great dreams create great achievers.”</p>
+  </footer>
+
+  <!-- 🎶 Background Music (Autoplay + Loop) -->
+  <audio autoplay loop>
+    <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+  </audio>
+
+  <script>
+    document.getElementById('year').textContent=new Date().getFullYear();
+  </script>
+</body>
+</html>
